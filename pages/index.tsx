@@ -28,7 +28,7 @@ const Home: NextPage = () => {
           <a href="https://github.com/karlozizic" ><AiFillGithub/></a>
           <a href="https://www.linkedin.com/in/karlozizic"><AiFillLinkedin /></a>
         </div>
-        <div className='relative mx-auto my-auto bg-gradient-to-b from-greenc-400 rounded-t-2xl w-40 h-40 mt-20 md:h-80 md:w-80'>
+        <div className='relative mx-auto my-auto bg-gradient-to-b from-greenc-400 rounded-t-2xl invisible w-40 h-40 mt-20 md:h-80 md:w-80 md:visible'>
           <Image src = {crop} alt = "profile picture"/>
         </div>
       </main>
