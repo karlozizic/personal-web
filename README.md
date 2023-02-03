@@ -1,1 +1,1 @@
-# Osobna Web stranica - Next.js + Tailwind CSS
+# Web Portfolio - Next.js + Tailwind CSS
