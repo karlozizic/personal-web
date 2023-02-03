@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false); 
   return (
     <div>
-      <nav className="bg-greenc-400 z-20 relative font-medium text-2xl">
+      <nav className="bg-greenc-400 z-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -20,12 +20,12 @@ export default function Navbar() {
               <div className="hidden md:block">
                 <ul className="ml-10 flex items-baseline space-x-4  "> 
                     <Link href = {"/"}>
-                        <li className = " hover:bg-greenc-700 text-white px-3 py-2 rounded-md text-lg font-medium">Home</li>
+                        <li className = " hover:bg-greenc-700 text-white px-3 py-2 rounded-md text-base font-medium">Home</li>
                     </Link>
                     <Link href = {"/projects"}>
-                        <li className = " hover:bg-greenc-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">Projects</li>
+                        <li className = " hover:bg-greenc-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">Projects</li>
                     </Link>
-                    <li className = " hover:bg-greenc-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium" >
+                    <li className = " hover:bg-greenc-700 hover:text-white px-3 py-2 rounded-md text-base font-medium" >
                         <a className="btn content-download button-main button-scheme" href="Karlo_Zizic.pdf" download="Karlo_Zizic" >Resume</a>
                     </li>
                 </ul>
