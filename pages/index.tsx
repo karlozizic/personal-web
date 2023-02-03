@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     className = "text-white absolute  top-0 left-0 w-full h-full bg-grey2 lg:px-48 px-20">
       <Head>
         <title>Karlo Zizic</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type= "image/png" href="kz-logo.png"/>
       </Head>
       <main className="my-80 text-center p-10 md:px-20 lg:px-40px">
         <div>

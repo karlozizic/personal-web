@@ -7,7 +7,7 @@ import Navbar2 from '../components/Navbar2.js'
 function MyApp({ Component, pageProps, router}: AppProps) {
   return (
   <div className="py-10 px-10 lg:px-48 font-latoBold">
-    <Navbar />
+    <Navbar2 />
     <AnimatePresence initial = {false}>
       <Component key = {router.pathname} {...pageProps} />
     </AnimatePresence>
