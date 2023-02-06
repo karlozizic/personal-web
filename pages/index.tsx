@@ -30,12 +30,8 @@ const Home: NextPage = () => {
                 </div>
                 <div className="hidden md:block">
                   <ul className="ml-10 flex items-baseline space-x-4  "> 
-                      <a href = "#homeDiv">
-                          <li className = " hover:bg-greenc-700 hover:text-white1 px-3 py-2 rounded-md text-base font-medium">Home</li>
-                      </a>
-                      <a href = "#projects">
-                          <li className = " hover:bg-greenc-700 hover:text-white1 px-3 py-2 rounded-md text-base font-medium">Projects</li>
-                      </a>
+                      <Link href = "#home" scroll={false} className = " hover:bg-greenc-700 hover:text-white1 px-3 py-2 rounded-md text-base font-medium">Home</Link>
+                      <Link href = "#projects" scroll={false} className = " hover:bg-greenc-700 hover:text-white1 px-3 py-2 rounded-md text-base font-medium">Projects</Link>
                   </ul>
 
                 </div>

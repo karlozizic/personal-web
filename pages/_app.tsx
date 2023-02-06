@@ -4,7 +4,7 @@ import {AnimatePresence} from "framer-motion"
 
 function MyApp({ Component, pageProps, router}: AppProps) {
   return (
-    <Component {...pageProps} />
+    <Component {...pageProps}/>
   );
 }
 
