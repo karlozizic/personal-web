@@ -11,7 +11,7 @@ import {Transition} from "@headlessui/react";
 const Home: NextPage = () => {
   const [isOpen, setIsOpen] = useState(false); 
   return (
-    <m.div className='bg-grey2 font-latoBold'>
+    <m.div className='bg-grey2 font-latoBold' id="home">
       <Head>
         <title>Karlo Zizic</title>
         <link rel="icon" type= "image/png" href="kz-logo.png"/>
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
           </Transition>
         </nav>
         
-        <div id="home" className='px-10 md:px-20 lg:px-40'>
+        <div  className='px-10 md:px-20 lg:px-40'>
           <h2 className='text-4xl py-2 text-black2 font-medium md:text-6xl'>Karlo Zizic</h2>
           <h3 className='text-2xl py-2 md:text-3xl text-black2'>Computer engineering student</h3>
           <p className='text-md py-5 leading-8 text-black2 md:text-xl max-w-xl mx-auto'>Hi, I am Software Engineer and Student at FER with passion for writing code. I'm interested in Backend development.</p>
