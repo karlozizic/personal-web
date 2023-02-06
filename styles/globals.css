@@ -15,6 +15,13 @@
     src: url(../public/Lato-Regular.ttf);
 }
 
+nav{
+    top: 0px;
+    right: 0px; 
+    left: 0px;
+    position: sticky;
+}
+
 html,
 body{
     padding: 0;

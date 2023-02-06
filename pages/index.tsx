@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <title>Karlo Zizic</title>
         <link rel="icon" type= "image/png" href="kz-logo.png"/>
       </Head>
-      <main id = "mainDiv" className="text-center">
+      <main id = "main" className="text-center">
         <nav className="mb-12 bg-greenc-400">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
                       <a href = "#homeDiv">
                           <li className = " hover:bg-greenc-700 hover:text-white1 px-3 py-2 rounded-md text-base font-medium">Home</li>
                       </a>
-                      <a href = "#projectsDiv">
+                      <a href = "#projects">
                           <li className = " hover:bg-greenc-700 hover:text-white1 px-3 py-2 rounded-md text-base font-medium">Projects</li>
                       </a>
                   </ul>
@@ -97,10 +97,10 @@ const Home: NextPage = () => {
           >
           {(ref) => (<div className="md:hidden" id="mobile-menu">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a href = "#mainDiv">
+              <a href = "#main">
                   <li className = " hover:bg-greenc-700 hover:text-white1 px-3 py-2 rounded-md text-base font-medium no-bullets list-none">Home</li>
               </a>
-              <a href = "#projectsDiv">
+              <a href = "#projects">
                   <li className = " hover:bg-greenc-700 hover:text-white1 px-3 py-2 rounded-md text-base font-medium list-none">Projects</li>
               </a>
             </div>
@@ -109,7 +109,7 @@ const Home: NextPage = () => {
           </Transition>
         </nav>
         
-        <div id="homeDiv" className='px-10 md:px-20 lg:px-40'>
+        <div id="home" className='px-10 md:px-20 lg:px-40'>
           <h2 className='text-4xl py-2 text-black2 font-medium md:text-6xl'>Karlo Zizic</h2>
           <h3 className='text-2xl py-2 md:text-3xl text-black2'>Computer engineering student</h3>
           <p className='text-md py-5 leading-8 text-black2 md:text-xl max-w-xl mx-auto'>Hi, I am Software Engineer and Student at FER with passion for writing code. I'm interested in Backend development.</p>
@@ -124,7 +124,7 @@ const Home: NextPage = () => {
         
       </main>
       
-      <section id = "projectsDiv" className='py-10 px-10'>
+      <section id = "projects" className='py-10 px-10'>
         <div>
           <h3 className="text-3xl py-1">Projects</h3>
           <p className='text-md py-2 leading-8 text-black2'>Comming soon!
