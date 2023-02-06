@@ -121,14 +121,27 @@ const Home: NextPage = () => {
         <div className='relative mx-auto my-auto bg-gradient-to-b from-greenc-400 rounded-t-2xl w-40 h-40 mt-20 md:h-80 md:w-80'>
           <Image src = {crop} alt = "profile picture"/>
         </div>
-        <div className='py-10'>
+        
+      </main>
+      
+      <section className='py-10 px-10'>
+        <div>
+          <h3 className="text-3xl py-1">Projects</h3>
+          <p className='text-md py-2 leading-8 text-black2'>Comming soon!
+          </p>
+          <p></p>
+        </div>
+        <div>
+        </div>
+      
+      </section>
+
+      <div className='py-10 text-center'>
           <a className="bg-greenc-400 hover:bg-greenc-700 hover:text-white1 rounded inline-flex items-center h-10 py-2 px-2 m-2 font-base" href="Karlo_Zizic.pdf" download="Karlo_Zizic" >
             <svg className="fill-current w-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" ><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
             <span >Download Resume</span>
           </a>
-        </div>
-      </main>
-      
+      </div>
 
     </m.div>
     
